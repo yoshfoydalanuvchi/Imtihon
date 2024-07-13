@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container {
+  width: 100% !important;
+  max-width: 1286px !important;
+  margin: 0 auto;
+}
+header {
+  color: #9a9ea6;
+  margin-bottom: 43px;
+}
+.nav {
+  li {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+    align-items: center;
+    &:hover {
+      color: #4475f2;
+    }
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    padding: 14px;
+  }
+}
+.s-shadow {
+  box-shadow: 0px 20px 35px 0px #4475f236;
+}
+.s1-shadow {
+  box-shadow: 0px 15px 20px 0px #4475f233;
+}
+.partner {
+  width: 268.63px;
+  height: 95.86px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(100%);
+
+  &:hover {
+    box-shadow: 0px 10px 25px 0px rgba(55, 55, 56, 0.2);
+    filter: grayscale(0);
+  }
+}
