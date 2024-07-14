@@ -699,6 +699,10 @@ video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -912,6 +916,12 @@ video {
 .hover\:text-gray-950:hover {
   --tw-text-opacity: 1;
   color: rgb(3 7 18 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:mb-\[10px\] {
+    margin-bottom: 10px;
+  }
 }
 
 @media (min-width: 1300px) {
