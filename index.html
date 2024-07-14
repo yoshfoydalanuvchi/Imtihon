@@ -15,9 +15,13 @@
   </head>
   <body>
     <header>
-      <div class="border-b-[1px] w-full">
-        <div class="container flex gap-[40px] py-[12px] items-center">
-          <a class="logo"><img src="./img/Logo.svg" alt="Logo" /></a>
+      <div class="border-b-[1px] w-full bg-white fixed z-50">
+        <div
+          class="container flex gap-[40px] py-[12px] items-center justify-between"
+        >
+          <a class="logo w-[119px]" href="/"
+            ><img src="./img/Logo.svg" alt="Logo"
+          /></a>
           <div class="w-[530px]">
             <form
               class="border-[1px] p-[3px] flex w-full rounded-[30px] bg-[#F0F1F2]"
@@ -40,8 +44,8 @@
             ><span><img src="./img/symbol.svg" alt="" /></span>
           </button>
           <div class="flex gap-[12px] items-center">
-            <img src="./img/locate.png" alt="" />
-            <div>
+            <a href="#"> <img src="./img/locate.png" alt="" /></a>
+            <div class="cursor-pointer hidden xxl:block">
               <span>Lokasi</span>
               <h1 class="text-[#4475F2] font-[700] flex text-[16px]">
                 Indonesia, Yogyakarta<img src="./img/symboll-2.svg" alt="" />
@@ -50,17 +54,21 @@
           </div>
         </div>
       </div>
-      <div class="container py-[24px] flex justify-between">
-        <ul class="flex nav gap-[40px]">
-          <li>Gunung <img src="./img/arrow-down.svg" alt="" /></li>
-          <li>Pantai <img src="./img/arrow-down.svg" alt="" /></li>
-          <li>Kuliner <img src="./img/arrow-down.svg" alt="" /></li>
-          <li>Outbond <img src="./img/arrow-down.svg" alt="" /></li>
-          <li>Sejarah<img src="./img/arrow-down.svg" alt="" /></li>
-          <li>Edukasi <img src="./img/arrow-down.svg" alt="" /></li>
-          <li>Romantis <img src="./img/arrow-down.svg" alt="" /></li>
-          <li>Alam <img src="./img/arrow-down.svg" alt="" /></li>
-        </ul>
+      <div class="w-full h-[4.5rem]"></div>
+
+      <div class="container py-[24px] flex justify-between gap-[10px]">
+        <div class="overflow-x-scroll z-[1] nav-scroll">
+          <ul class="flex nav gap-[40px]">
+            <li>Gunung <img src="./img/arrow-down.svg" alt="" /></li>
+            <li>Pantai <img src="./img/arrow-down.svg" alt="" /></li>
+            <li>Kuliner <img src="./img/arrow-down.svg" alt="" /></li>
+            <li>Outbond <img src="./img/arrow-down.svg" alt="" /></li>
+            <li>Sejarah<img src="./img/arrow-down.svg" alt="" /></li>
+            <li>Edukasi <img src="./img/arrow-down.svg" alt="" /></li>
+            <li>Romantis <img src="./img/arrow-down.svg" alt="" /></li>
+            <li>Alam <img src="./img/arrow-down.svg" alt="" /></li>
+          </ul>
+        </div>
         <div class="nav">
           <button class="bg-[#4475F2] mr-2">
             <img src="./img/shop.svg" alt="shop" />

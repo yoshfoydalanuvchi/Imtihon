@@ -56,3 +56,58 @@ header {
     filter: grayscale(0);
   }
 }
+@media (max-width: 1300px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1080px !important;
+    padding: 15px;
+  }
+}
+.nav {
+  gap: 20px;
+  li {
+    gap: 2px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 960px !important;
+  }
+  .nav {
+    gap: 15px;
+    font-size: small;
+    button {
+      width: 32px;
+      height: 32px;
+      padding: 8px;
+    }
+  }
+}
+.nav-scroll {
+  width: 80%;
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px !important;
+    .nav {
+      font-size: smaller;
+      gap: 30px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .nav-scroll {
+    width: 70%;
+  }
+}
